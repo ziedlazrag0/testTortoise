@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
     MainWindow w;
     Connection c;
     bool test=c.createConnection();
+    //bonjour tortoise
 
     if(test)
         QMessageBox::information(nullptr, QObject::tr("database to open"),
